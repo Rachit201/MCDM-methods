@@ -8,12 +8,15 @@ method.
    gcc / g++ compiler to compile the cpp files.
 
 # Setup
+```sh
   sudo apt update
   sudo apt install g++
-  
+```
 # How to run ?
+```sh
   git clone {repository name}      
   cd MCDM-methods          
   g++ filename.cpp -o outputname         
-  ./outputname          
+  ./outputname
+```          
   
