@@ -186,5 +186,12 @@ int main()
 	{
 		cout << "for type " << i+1 << " we have " << performance_score[i] << endl; 
 	}
-
+	//Add the summation of the result values.
+	int sum_of_result=0;
+	for(int i=0;i<types;i++)
+	{
+		sum_of_result += performance_score[i];
+	}
+	cout<<"The sum of the performance is = "<<sum_of_result<<endl;
+	cout<<"Hope you have a good day!"<<endl;
 }
